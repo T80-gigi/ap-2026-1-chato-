@@ -1,0 +1,18 @@
+Algoritmo <porcentagem>
+
+real: salariof, total, salariot, comis
+caractere: nome
+
+escreva("Digite o nome do vendedor:")
+leia(nome)
+escreva("Digite o salário fixo:")
+leia(salariof)
+escreva("Digite o total de vendas:")
+leia(total)
+
+comis <- total * 0.15
+salariot <- salariof + comis
+
+escreva("Nome:", nome)
+escreva("Salário Fixo: R$", salariof)
+escreva("Salário Total com comissão: R$", salariot)

@@ -1,0 +1,15 @@
+Algoritmo <Troca>
+
+inteiro A, B, troca
+
+escreva("Digite o valor de A:")
+leia (A)
+escreva("Digite o valor de B:")
+leia (B)
+
+troca <- A
+A <- B
+B <- troca
+
+escreva("A=", A)
+escreva("B=", B)
