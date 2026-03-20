@@ -1,0 +1,16 @@
+Algoritmo <CustoCarro>
+
+Var
+cf, imp, cci, cf real
+
+Inicio
+escreva("Digite o custo de fábrica do carro:");
+leia(cf);
+
+imp <-- cf*0.45;
+cci <- cf+imp;
+cf  <--cci+(cci*0.28);
+
+escreva("O custo ao consumidor é: ", cf);
+
+Fim

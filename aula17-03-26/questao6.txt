@@ -1,0 +1,38 @@
+Algoritmo <valor>
+
+var
+v1, v2: inteiro
+
+inicio
+
+escreva("Digite o Primeiro Valor: ")
+leia(v1)
+   
+escreva("Digite o Segundo Valor: ")
+leia(v2)
+
+se (v1 > v2) entao
+escreva("O primeiro valor é maior que o segundo valor.")
+      
+se (v1 >= 1) e (v1 <= 99) entao
+escreva("O valor está entre 1 e 99")
+fimse
+      
+se (v1 >= 100) e (v1 < 200) entao
+escreva("O valor está entre 100 e 199")
+fimse
+
+senao
+escreva("O segundo valor é maior que o primeiro valor.")
+      
+se (v2 >= 1) e (v2 <= 99) entao
+escreva("O valor está entre 1 e 99")
+fimse
+      
+se (v2 >= 100) e (v2 < 200) entao
+escreva("O valor está entre 100 e 199")
+fimse
+
+fimse
+
+fimalgoritmo

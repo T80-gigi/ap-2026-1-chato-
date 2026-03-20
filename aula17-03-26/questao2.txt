@@ -1,0 +1,14 @@
+Algoritmo <graus>
+var
+
+C, F real
+
+inicio
+
+escreva("Quantos Graus Celsius?");
+leia(C);
+F <-- (9*C+160)/5;
+
+escreva("Em Fahrenheit é:", F,"°F");
+
+Fim

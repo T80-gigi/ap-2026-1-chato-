@@ -1,0 +1,13 @@
+Algoritmo <Render>
+
+vi, vt real
+
+inicio
+escreva("Qual é o valor que será depositado?");
+leia(vi);
+
+vt <-- vi+ (vi*0,7);
+
+escreva("Após 1 mês, o rendimento total será de:", vt);
+
+Fim

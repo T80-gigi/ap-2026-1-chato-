@@ -1,0 +1,15 @@
+Algoritmo <ConsumodeVeiculos>
+var
+consm, dis, combus real
+
+inicio
+escreva("Informe a distância percorrida:");
+leia(dis);
+escreva("Informe a quantidade de gasolina gasta:");
+leia(combus);
+
+consm <- dis/combus;
+
+escreva("A quantidade de Gasolina gasta por Km foi de " consm, "Km/L);
+
+Fim

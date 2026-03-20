@@ -1,0 +1,15 @@
+Algoritmo <realedolar>
+
+var
+d1, dd2, total real
+
+inicio
+escreva("Qual o valor em US$?");
+leia(d1);
+escreva("Digite o valor atual do Dolar:");
+leia(d2);
+
+total <-- d1/d2;
+escreva("Em Reais fica: R$",total);
+
+Fim
